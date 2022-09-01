@@ -1,2 +1,2 @@
-!#bin/nash
+#!bin/nash
 ls -l -a -n
