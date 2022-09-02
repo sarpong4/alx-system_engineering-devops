@@ -1,3 +1,4 @@
+## SHELL PERMISSIONS
 0. Script that changes the current user
 1. Script that prints the effective username of the current user
 2. Script that prints the groups the current user is part of
@@ -6,4 +7,5 @@
 5. Script that adds execute permission to the owner of the file `hello`
 6. Script that adds execute permission to the owner and group owner, and read permission to other users of the file `helllo`
 7. script that adds execution permission to the owner, the group owner and the other users, to the file `hello`
+8. script that sets the permission to the file `hello`
 
