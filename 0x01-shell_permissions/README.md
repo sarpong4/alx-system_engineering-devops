@@ -5,4 +5,5 @@
 4. Script that creates an empty file called `hello`
 5. Script that adds execute permission to the owner of the file `hello`
 6. Script that adds execute permission to the owner and group owner, and read permission to other users of the file `helllo`
+7. script that adds execution permission to the owner, the group owner and the other users, to the file `hello`
 
