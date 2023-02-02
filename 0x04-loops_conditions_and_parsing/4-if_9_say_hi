@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# script to display 'Best School' 10 times with while loop
+# script to display 'Best School' 9 times with while loop
+# and 'Hi' once - if the iterator is equal to 9
 
 x=0
 while [ $x -ne 10 ]
