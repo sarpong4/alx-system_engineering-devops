@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# parse the apache log files and diaplay some data - too tired to write the entire thing
+
+awk '{print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn
+
