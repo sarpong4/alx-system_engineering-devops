@@ -2,8 +2,8 @@
 # script to display 'Best School' 10 times with while loop
 
 x=0
-while [$x -ne 10 ]
+while [ $x -ne 10 ]
 do
 	echo "Best School"
-	x = $(( x + 1 ))
+	x=$(( x + 1 ))
 done
