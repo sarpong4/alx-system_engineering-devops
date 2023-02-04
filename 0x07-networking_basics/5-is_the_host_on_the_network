@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# a Bash script that pings an IP address passed as an argument.
-# if no IP address is passed, echoes a message on the usage.
+# a script that pings an IP address passed as an argument.
+# if no IP address is passed, it displays a message on the usage.
 
 if [ "$#" -eq 0 ]
 then
