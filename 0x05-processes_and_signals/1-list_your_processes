@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# display all running processes with tty, and process heirarchy
+
+ps auxf
+
