@@ -6,7 +6,6 @@
  * infinite_while - create a never ending while loop
  * Return: always 0
  */
-
 int infinite_while(void)
 {
 	while(1)
@@ -20,14 +19,13 @@ int infinite_while(void)
  * main - creates 5 zombie processes
  * Return: always 0
  */
-
 int main(void)
 {
-	// pid_t zombie;
+	pid_t zombie;
 	for (int i = 0; i < 5; i++)
 	{
-		//zombie = fork();
-		if (!fork())
+		zombie = fork();
+		if (!zombie)
 			return (0);
 		printf("Zombie process created, PID: %d\n", zombie);
 	}
