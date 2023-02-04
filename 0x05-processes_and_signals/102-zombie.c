@@ -6,7 +6,6 @@
  * infinite_while - create a never ending while loop
  * Return: always 0
  */
-
 int infinite_while(void)
 {
 	while(1)
@@ -20,9 +19,9 @@ int infinite_while(void)
  * main - creates 5 zombie processes
  * Return: always 0
  */
-
 int main(void)
 {
+	// added this comment to test a theory
 	int i;
 	pid_t zombie;
 
