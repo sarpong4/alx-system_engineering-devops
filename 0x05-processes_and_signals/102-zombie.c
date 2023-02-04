@@ -23,18 +23,14 @@ int infinite_while(void)
 
 int main(void)
 {
-	// added this comment to test a theory
-	int i;
-	pid_t zombie;
-
-	for (i = 0; i < 5; i++)
+	// pid_t zombie;
+	for (int i = 0; i < 5; i++)
 	{
-		zombie = fork();
-		if (!zombie)
+		//zombie = fork();
+		if (!fork())
 			return (0);
 		printf("Zombie process created, PID: %d\n", zombie);
 	}
-
 	infinite_while();
 	return (0);
 }
