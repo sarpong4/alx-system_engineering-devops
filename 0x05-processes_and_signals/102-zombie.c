@@ -4,7 +4,7 @@
 
 /**
  * infinite_while - create a never ending while loop
- * Return: always 0
+ * Return: 1
  */
 int infinite_while(void)
 {
@@ -14,10 +14,9 @@ int infinite_while(void)
 	}
 	return (0);
 }
-
 /**
  * main - creates 5 zombie processes
- * Return: always 0
+ * Return: 1
  */
 int main(void)
 {
