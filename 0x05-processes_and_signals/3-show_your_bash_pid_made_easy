@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# display pid of all running processes with 'bash' in their name - without ps
+# shellcheck disable=SC2009
+
+pgrep -l "bash"
+
