@@ -2,8 +2,7 @@
 # a script that pings an IP address passed as an argument.
 # if no IP address is passed, it displays a message on the usage.
 
-if [ "$#" -eq 0 ]
-then
+if [ "$#" -eq 0 ]; then
 	echo 'Usage: 5-is_the_host_on_the_network {IP_ADDRESS}'
 else
 	ping -c 5 "$1"
