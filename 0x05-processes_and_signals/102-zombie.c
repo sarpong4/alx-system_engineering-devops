@@ -5,7 +5,6 @@
  * infinite_while - create a never ending while loop
  * Return: always 0
  */
-
 int infinite_while(void)
 {
 	while(1)
@@ -21,6 +20,7 @@ int infinite_while(void)
  */
 int main(void)
 {
+	// our iterator
 	int i;
 	pid_t zombie;
 
