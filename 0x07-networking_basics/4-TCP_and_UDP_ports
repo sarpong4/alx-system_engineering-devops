@@ -1,4 +1,4 @@
 #!/usr/bin/env  bash
 # display the listening posts - shows the PID and name of the program each socket belongs to.
 
-sudo netstat -lp
+netstart -lp
